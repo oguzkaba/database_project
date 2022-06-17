@@ -67,7 +67,7 @@ class HomeView extends StatelessWidget {
                   width: _size.width * .6,
                 ),
                 CustomButton(
-                  press: localDataProvider.clearTable,
+                  press: localDataProvider.getLengthFourData,
                   text: "Boyutu 4 Olanları Listele",
                   width: _size.width * .6,
                 ),
